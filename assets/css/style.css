@@ -24,8 +24,8 @@ margin-bottom: 15px;
 
 h3 {
     position: absolute;
-    bottom: 0;
-    right: 20px;
+    top: 20px;
+    right: 30px;
 }
 
 div {
@@ -58,4 +58,31 @@ article {
     background: url("55DF05E1-EDF7-4D56-9123-2C8B314951DFIMG_3651.jpg") no-repeat;
     background-size: cover;
     position: relative;
+}
+
+aside {
+    display: flex;
+    border-color: wheat;
+    size: 50%;
+    border: 5px solid wheat ;
+    padding: 20px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+p {
+    color: wheat;
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#paragraph {
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 100%;
 }
