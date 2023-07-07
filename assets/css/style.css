@@ -1,0 +1,33 @@
+.header {
+    padding: 20px 10px;
+    background-color: seagreen;
+    color: wheat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+nav {
+   
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+}
+
+li {
+    padding: 5px;
+
+}
