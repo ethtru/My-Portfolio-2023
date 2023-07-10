@@ -75,3 +75,16 @@ section > p {
     flex-basis: 700px;
     
 }
+
+img {
+    
+    border-radius: 8px;
+    width: 700px 
+
+}
+
+a:hover {
+  background-color: white;  
+  opacity: 0.7;
+  border-radius: 8px;
+}
