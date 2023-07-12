@@ -1,75 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ethan Trudell's Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-      </head>
-</head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ethan Trudell's Portfolio</title>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+  </head>
 
-
-<body>
-  <header class="header">
-    <div id="header-pic">
-    <img src="./assets/pics/PIC.jpg" alt="image-of-ethan" id="ethan-pic">
-    <h1>
-      Ethan Trudell
-    </h1>
-    </div>
-    <nav>
-      <a href="#aboutme">About Me </a>
-      <a href="#work">Work </a>
-      <a href="#contactme">Contact Me </a>
-    </nav>
-  </header>
-
-  <div class="hero">
-    <p class="hero-text">
-      <i>Let me help you build something great!</i>
-    </p>
-  </div>
-
-<main>
-
-  <section>
-    <h2 id="aboutme">About Me</h2>
-    <p>
-      I graduated from the University of Tennessee with a Bachelor's degree in Marketing in 2009. Since then, I have held several jobs in the business space ranging from recruitment to healthcare management. In the spring of this year, I decided to make a change and harness a new skill within the web development community. This shift has allowed me to use my creativity and problem solving skills to develop attractive, functional web applications. Please have a look around my site to see some of my work!
-    </p>
-  </section> 
-
-  <section>
-    <h2 id="work">Work</h2>
-    <a href="https://ethtru.github.io/first-challenge/">
-      <h3>Horiseon</h3>
-      <img id="hero-pic" src="./assets/pics/digital-marketing-meeting.jpg" alt="Horiseon Website">
-    </a>
-    <div id="pic-section">
-    <a href="#">
-      <div class="sub-pic">
-        <h4>Coming Soon</h4>
+  <!-- main header section including image of ethan with links aligned to the right and styled to match rest of app  -->
+  <body>
+    <header class="header">
+      <div id="header-pic">
+        <img src="./assets/pics/PIC.jpg" alt="image-of-ethan" id="ethan-pic" />
+        <h1>Ethan Trudell</h1>
       </div>
-    </a>
-    <a href="#">
-      <div class="sub-pic">
-        <h4>Coming Soon</h4>
-      </div>
-    </a>
+      <nav>
+        <a href="#aboutme">About Me </a>
+        <a href="#work">Work </a>
+        <a href="#contactme">Contact Me </a>
+      </nav>
+    </header>
+
+    <!-- sub header section with backgroup picture of nature to separate header and work sections  -->
+    <div class="hero">
+      <p class="hero-text">
+        <i>Let me help you build something great!</i>
+      </p>
     </div>
-  </section>
 
-  <section id="contact">
-    <h2 id="contactme">Contact Me</h2>
-      <div id="bottom">
-        <p><a href="#"></a>ethtru@gmail.com</p>
-        <p>865-773-7500</p>
-        <p><a class='no-decoration'href="https://github.com/ethtru">GitHub</a></p>
-      </div>  
-  </section>
+    <main>
+      <!-- bio section with information about me aligned to the right of the page  -->
+      <section>
+        <h2 id="aboutme">About Me</h2>
+        <p>
+          I graduated from the University of Tennessee with a Bachelor's degree
+          in Marketing in 2009. Since then, I have held several jobs in the
+          business space ranging from recruitment to healthcare management. In
+          the spring of this year, I decided to make a change and harness a new
+          skill within the web development community. This shift has allowed me
+          to use my creativity and problem solving skills to develop attractive,
+          functional web applications. Please have a look around my site to see
+          some of my work!
+        </p>
+      </section>
 
-</main>
+      <!-- work section including large picture of main application and two place holder images for future apps  -->
+      <section>
+        <h2 id="work">Work</h2>
+        <a href="https://ethtru.github.io/first-challenge/">
+          <h3>Horiseon</h3>
+          <img
+            id="hero-pic"
+            src="./assets/pics/digital-marketing-meeting.jpg"
+            alt="Horiseon Website"
+          />
+        </a>
+        <div id="pic-section">
+          <a href="#">
+            <div class="sub-pic">
+              <h4>Coming Soon</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="sub-pic">
+              <h4>Coming Soon</h4>
+            </div>
+          </a>
+        </div>
+      </section>
 
-</body>
+      <!-- Contact section including email, phone, and github  -->
+      <section id="contact">
+        <h2 id="contactme">Contact Me</h2>
+        <div id="bottom">
+          <p><a href="#"></a>ethtru@gmail.com</p>
+          <p>865-773-7500</p>
+          <p>
+            <a class="no-decoration" href="https://github.com/ethtru">GitHub</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
