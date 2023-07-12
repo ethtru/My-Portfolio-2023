@@ -34,10 +34,10 @@ h1 {
 h3 {
   position: absolute;
   background-color: seagreen;
-  padding: 20px;
-  bottom: -100px;
+  padding: 30px;
   color: wheat;
   font-size: 20px;
+  border-radius: 8px 0px 0px 0px;
 }
 
 /* labels for placeholder elements below main work picture  */
