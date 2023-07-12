@@ -17,3 +17,7 @@ John Titus assisted in consolidating CSS elements in our tutoring session on Jul
 ## **Screenshot:**
 
 ![Alt text](/assets/pics/06837232-906F-4FD4-A6A5-D9ED45974561.jpeg?raw=true "Screenshot")
+
+## **Application Link:**
+
+https://ethtru.github.io/My-Portfolio-2023/
