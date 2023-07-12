@@ -25,6 +25,7 @@ body {
 h1 {
 margin-top: 15px;
 margin-bottom: 15px;
+text-shadow: 3px 3px darkgreen;
 }
 
 h3 {
@@ -56,7 +57,7 @@ h4 {
     padding: 10px; 
     background: url("../pics/55DF05E1-EDF7-4D56-9123-2C8B314951DFIMG_3651.jpg") no-repeat;
     background-size: cover;
-    min-height: 150px;
+    min-height: 125px;
 }
 
 
@@ -64,8 +65,6 @@ nav {
     list-style: none;
     display: flex;
     padding: 10px 15px;
-    /* margin-top: auto; */
-    /* margin-left: 50%; */
 }
 
 nav a {
@@ -137,5 +136,9 @@ img {
 
   #header-pic {
     display: flex;
+  }
 
+  #contact {
+    display: flex;
+    justify-content: space-between;
   }
