@@ -13,8 +13,12 @@
 
 <body>
   <header class="header">
-    <h1>Ethan Trudell</h1>
-    
+    <div id="header-pic">
+    <img src="./assets/pics/PIC.jpg" alt="image-of-ethan" id="ethan-pic">
+    <h1>
+      Ethan Trudell
+    </h1>
+    </div>
     <nav>
       <a href="#aboutme">About Me </a>
       <a href="#work">Work </a>
@@ -32,23 +36,38 @@
 <main>
 
   <section>
-    <h2>About Me</h2>
+    <h2 id="aboutme">About Me</h2>
     <p>
       I graduated from the University of Tennessee with a Bachelor's degree in Marketing in 2009. Since then, I have held several jobs in the business space ranging from recruitment to healthcare management. In the spring of this year, I decided to make a change and harness a new skill within the web development community. This shift has allowed me to use my creativity and problem solving skills to develop attractive, functional web applications. Please have a look around my site to see some of my work!
     </p>
   </section> 
-
+<!-- How should I change the CSS selector so it's not just img? -->
   <section>
-    <h2>Work</h2>
-    <a href="https://ethtru.github.io/first-challenge/"><img src="./assets/css/digital-marketing-meeting.jpg" alt="Horiseon Website"></a>
+    <h2 id="work">Work</h2>
+    <a href="https://ethtru.github.io/first-challenge/">
+      <h3>Horiseon</h3>
+      <img id="hero-pic" src="./assets/pics/digital-marketing-meeting.jpg" alt="Horiseon Website">
+    </a>
+    <div id="pic-section">
+    <a href="#">
+      <div class="sub-pic">
+        <h4>Coming Soon</h4>
+      </div>
+    </a>
+    <a href="#">
+      <div class="sub-pic">
+        <h4>Coming Soon</h4>
+      </div>
+    </a>
+    </div>
   </section>
 
   <section>
-    <h2>Contact Me</h2>
+    <h2 id="contactme">Contact Me</h2>
   </section>
 
   <section>
-    <h2>Resume</h2>
+    <h2 id="resume">Resume</h2>
   </section>
 
 </main>
