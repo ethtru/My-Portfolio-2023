@@ -140,5 +140,17 @@ img {
 
   #contact {
     display: flex;
-    justify-content: space-between;
   }
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+    gap: 20px;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: inherit;
+  }
+
